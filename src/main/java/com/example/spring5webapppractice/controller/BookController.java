@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-
 public class BookController {
     //injecting in an instance of the book repository
     private final BookRepository bookRepository;
